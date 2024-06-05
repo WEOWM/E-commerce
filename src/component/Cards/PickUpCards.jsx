@@ -5,52 +5,52 @@ const PickUpCards = () => {
 
   const pickupcard = [
     {
-      img: "public/assets/cards/625149-Product-0-I-638127634998693959 1.jpg",
+      img: "https://cdn0.weddingwire.in/article/6117/original/1280/jpg/107116-wedding-dresses-for-girls-2.jpeg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/w.png",
+      img: "https://m.media-amazon.com/images/I/81kAPwydf6L._AC_UY350_.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 528 (2).png",
+      img: "https://assets.ajio.com/medias/sys_master/root/20230907/O2KA/64f91d0addf7791519c0b242/-473Wx593H-466542753-blue-MODEL5.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 529.png",
+      img: "https://assets.ajio.com/medias/sys_master/root/20230310/XUJO/640b0095aeb26924e3b5e3a5/-473Wx593H-465898642-green-MODEL4.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/tr62823-Figure-I.-iphone12-pro-colors 1.png",
+      img: "https://www.jiomart.com/images/product/original/rvsaholqqg/fashion-dream-women-sky-printed-georgette-dress-dresses-women-dress-maxi-dresses-dress-for-women-maxi-dresses-for-women-women-casual-dress-tiered-dress-maxi-printed-dress-product-images-rvsaholqqg-4-202306090203.jpg?im=Resize=(500,630)",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 529.png",
+      img: "https://i.pinimg.com/736x/25/48/81/2548811510c27aa47cf2be3e4da06be5.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 528 (10).png",
+      img: "https://i.pinimg.com/736x/a0/b4/90/a0b490a70076c71870329e7a13214067.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 528 (8).png",
+      img: "https://i.pinimg.com/736x/ab/b2/ac/abb2acae8d91a8ae22a42c405359374c.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 528 (7).png",
+      img: "https://i.pinimg.com/564x/57/68/46/576846e9345b575ebb77168c61dee3cc.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },
     {
-      img: "public/assets/cards/Frame 528 (5).png",
+      img: "https://i.pinimg.com/736x/a5/5e/78/a55e78119a6c9771d887be194ddb0659.jpg",
       title: "Razer Kraken Kitty V2 Pro Wired RGB Headset with...",
       Aed: "4,740"
     },

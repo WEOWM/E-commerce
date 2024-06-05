@@ -25,7 +25,7 @@ const Home = (props) => {
     const data = [
         // "https://img.freepik.com/free-vector/simple-geometric-seo-sessions-facebook-profile-cover_23-2149509971.jpg?w=1060&t=st=1700902676~exp=1700903276~hmac=03865644a8911aee500e261e3cb184df361a021fb507e206177982206a3ff4be",
         // "public/assets/Carousel/c2/Component 14.png",
-        "public/assets/Carousel/c2/Component 8.png",
+        // "public/assets/Carousel/c2/Component 8.png",
         // "public/assets/Carousel/c2/Component 9.png",
         "https://t3.ftcdn.net/jpg/06/36/44/26/360_F_636442646_II8z4yhYbPoea8P6HoimUblo6ZQXzUXY.jpg",
         "https://blog.daraz.lk/wp-content/uploads/2021/05/laptop-banner.jpg",
@@ -33,14 +33,14 @@ const Home = (props) => {
         
     ];
     const Corousel = [
-        // "https://img.freepik.com/free-vector/simple-geometric-seo-sessions-facebook-profile-cover_23-2149509971.jpg?w=1060&t=st=1700902676~exp=1700903276~hmac=03865644a8911aee500e261e3cb184df361a021fb507e206177982206a3ff4be",
-        // "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw1oqnVz1VGDQUBc62gs_7Ow&ust=1701063979581000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjcmqX74IIDFQAAAAAdAAAAABAD",
-        // "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fcochin&psig=AOvVaw1oqnVz1VGDQUBc62gs_7Ow&ust=1701063979581000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjcmqX74IIDFQAAAAAdAAAAABAH",
-        "public/assets/Carousel/c2/Component 12 (1).png",
-        "public/assets/Carousel/c2/Component 13.png",
-        "public/assets/Carousel/c2/Component 12 (1).png",
-        "public/assets/Carousel/c2/Component 12 (1).png",
-        "public/assets/Carousel/c2/Component 13.png",
+        "https://t3.ftcdn.net/jpg/06/36/44/26/360_F_636442646_II8z4yhYbPoea8P6HoimUblo6ZQXzUXY.jpg",
+        "https://blog.daraz.lk/wp-content/uploads/2021/05/laptop-banner.jpg",
+        "https://static.vecteezy.com/system/resources/thumbnails/008/174/590/small/fashion-advertising-web-banner-illustration-vector.jpg"
+        // "public/assets/Carousel/c2/Component 12 (1).png",
+        // "public/assets/Carousel/c2/Component 13.png",
+        // "public/assets/Carousel/c2/Component 12 (1).png",
+        // "public/assets/Carousel/c2/Component 12 (1).png",
+        // "public/assets/Carousel/c2/Component 13.png",
 
     ];
 
