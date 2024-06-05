@@ -175,14 +175,14 @@ const Footer = () => {
 
             <div className=' h-[1px] bg-[#6D6D6D]'></div>
             <div className='flex justify-between items-center h-20 p-7 '>
-                <span className='text-[22px]'>Popular Categories</span>
+                <span className='md:text-[22px]'>Popular Categories</span>
                 <span><IoIosArrowDown size={20}/></span>
             </div>
             <div className=' h-[1px] bg-[#6D6D6D]'></div>
             
 
             <div className=' flex justify-center items-center relative top-3'>
-                <span>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</span>
+                <span className='max-sm:text-[12px]'>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</span>
             </div>
 
         </div>
