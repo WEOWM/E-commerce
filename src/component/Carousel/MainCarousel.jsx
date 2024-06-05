@@ -21,7 +21,7 @@ const MainCarousel = (props) => {
             {props?.data.map((image, index) => {
               return (
                 <SwiperSlide>
-                  <img className="banner w-full" src={image} alt="" />
+                  <img className="banner w-full " src={image} alt="" />
                 </SwiperSlide>
               );
             })}

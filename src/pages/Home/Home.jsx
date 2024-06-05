@@ -24,9 +24,13 @@ import Region from '../Region';
 const Home = (props) => {
     const data = [
         // "https://img.freepik.com/free-vector/simple-geometric-seo-sessions-facebook-profile-cover_23-2149509971.jpg?w=1060&t=st=1700902676~exp=1700903276~hmac=03865644a8911aee500e261e3cb184df361a021fb507e206177982206a3ff4be",
-        "public/assets/Carousel/c2/Component 14.png",
+        // "public/assets/Carousel/c2/Component 14.png",
         "public/assets/Carousel/c2/Component 8.png",
-        "public/assets/Carousel/c2/Component 9.png",
+        // "public/assets/Carousel/c2/Component 9.png",
+        "https://t3.ftcdn.net/jpg/06/36/44/26/360_F_636442646_II8z4yhYbPoea8P6HoimUblo6ZQXzUXY.jpg",
+        "https://blog.daraz.lk/wp-content/uploads/2021/05/laptop-banner.jpg",
+        "https://static.vecteezy.com/system/resources/thumbnails/008/174/590/small/fashion-advertising-web-banner-illustration-vector.jpg"
+        
     ];
     const Corousel = [
         // "https://img.freepik.com/free-vector/simple-geometric-seo-sessions-facebook-profile-cover_23-2149509971.jpg?w=1060&t=st=1700902676~exp=1700903276~hmac=03865644a8911aee500e261e3cb184df361a021fb507e206177982206a3ff4be",
