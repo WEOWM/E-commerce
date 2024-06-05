@@ -58,7 +58,7 @@ const Fashion = () => {
                         return (
                             <div className='border border-gray-200 rounded-md'>
                                 <div>
-                                    <img className='' src={item.img} alt="" />
+                                    <img loading='lazy' className='' src={item.img} alt="" />
                                 </div>
                                 <div className='flex flex-col text-start '>
                                     <span>₹12,000</span>

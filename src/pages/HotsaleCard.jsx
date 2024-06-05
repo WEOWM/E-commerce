@@ -62,12 +62,12 @@ const HotsaleCard = () => {
 
                     <div className='flex gap-3 mt-5'>
                         <div>
-                            <img className='  h-[240px] rounded-md' src="https://as1.ftcdn.net/v2/jpg/05/66/48/76/1000_F_566487699_CDEZVGW2pLxkLVdxe7HtJxq569rIxMzz.jpg" alt="" srcset="" />
+                            <img  loading='lazy' className='  h-[240px] rounded-md' src="https://as1.ftcdn.net/v2/jpg/05/66/48/76/1000_F_566487699_CDEZVGW2pLxkLVdxe7HtJxq569rIxMzz.jpg" alt="" srcset="" />
                         </div>
 
                         <div className='max-sm:w-full'>
-                            <img className='w-[255px] h-[121.28px] rounded-lg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1uw1orC2eImf2d8GJijynh1LOEH5BV_Tkw&s" alt="" srcset="" />
-                            <img className='w-[255px] h-[121.28px] pt-1 rounded-lg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ZVn4kf4Dr3B_E4W_UZF1EXmUTbg1BBKtBg&s" alt="" srcset="" />
+                            <img loading='lazy' className='w-[255px] h-[121.28px] rounded-lg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1uw1orC2eImf2d8GJijynh1LOEH5BV_Tkw&s" alt="" srcset="" />
+                            <img loading='lazy' className='w-[255px] h-[121.28px] pt-1 rounded-lg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ZVn4kf4Dr3B_E4W_UZF1EXmUTbg1BBKtBg&s" alt="" srcset="" />
 
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const HotsaleCard = () => {
                                 accessories.map((item) => {
                                     return (
                                         <div>
-                                            <img className='h-[120px] rounded-sm' src={item.img} alt="" />
+                                            <img loading='lazy' className='h-[120px] rounded-sm' src={item.img} alt="" />
                                         </div>
                                     )
                                 })
@@ -102,7 +102,7 @@ const HotsaleCard = () => {
                                 watch.map((item) => {
                                     return (
                                         <div>
-                                            <img className='h-[120px] rounded-sm' src={item.img} alt="" />
+                                            <img loading='lazy' className='h-[120px] rounded-sm' src={item.img} alt="" />
                                         </div>
                                     )
                                 })
@@ -119,7 +119,7 @@ const HotsaleCard = () => {
                                     return (
                                         <div className="" >
                                             <div className='flex'>
-                                                <img className='h-[220px] rounded-sm' src={item.img} alt="" />
+                                                <img loading='lazy' className='h-[220px] rounded-sm' src={item.img} alt="" />
 
                                             </div>
                                             <div className=''>

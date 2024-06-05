@@ -59,7 +59,7 @@ const DisCoverCard = () => {
                             index === currentIdx ? 'active-slide' : ''
                         }`}
                     >
-                        <img className="slide h-[250px]" src={item.images} alt="" />
+                        <img className="slide md:h-[250px]" src={item.images} alt="" />
                         <span>{item.price}</span>
                     </div>
                 ))}
