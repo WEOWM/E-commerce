@@ -1,0 +1,23 @@
+.silder {
+    margin: auto;
+    display: grid;
+    position: relative;
+    place-items: center;
+}
+.slider-track {
+    /* display: flex; */
+    width: calc(250px *18);
+}
+.silde {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    transform:transform 1s;
+}
+img:hover{
+    transform:translateZ(20px);
+}
