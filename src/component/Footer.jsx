@@ -160,7 +160,7 @@ const Footer = () => {
 
                                 <div className='flex flex-col text-white'>
                                     <span className='max-sm:text-[12px]'>android app on</span>
-                                    <span className='max-sm:text-[18px]'>Google Play</span>
+                                    <span className='max-sm:text-[15px]'>Google Play</span>
                                 </div>
 
                             </div>
