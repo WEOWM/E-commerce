@@ -73,7 +73,7 @@ const PickUpCards = () => {
                   <span className='max-sm:text-[9px] text-[16px]'>{item.title}</span>
                   <div className='flex justify-between items-center mt-5'>
                     <span className='max-sm:text-[9px]'>AED {item.Aed}</span>
-                    <span className='px-y rounded-[3.99px] bg-[#FF8A00] max-sm:text-[9px]'>160 SOLD</span>
+                    <span className='px-y rounded-[3.99px] bg-[#FF8A00] max-sm:text-[9px] animate-pulse'>160 SOLD</span>
                   </div>
                 </div>
               </div>

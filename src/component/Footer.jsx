@@ -4,8 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { IoLogoAppleAppstore } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
+import { GrAppleAppStore } from "react-icons/gr";
 
 const Footer = () => {
     const data1 = [
@@ -72,7 +72,7 @@ const Footer = () => {
 
 
     return (
-        <div className='bg-[#F0F0F0] h-[90vh]'>
+        <div className='bg-[#F0F0F0] h-auto'>
             <div className='grid grid-cols-4 max-sm:grid-cols-2 gap-4 p-20'>
                 <div className='gap-3'>
                     <h2 className='mb-3 text-[20px] font-bold'>Need Help</h2>
@@ -129,8 +129,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-2 max-sm:grid-cols-1  p-10 '>
-                <div className='flex md:gap-3 '>
+            <div className='grid grid-cols-2 max-sm:grid-cols-2  md:p-10  place-items-center'>
+
+                <div className='flex gap-3'>
                     <div className='w-[37px] h-[37px] rounded-[10px] bg-[#090808ad] flex justify-center items-center'>
                         <RiFacebookFill size={22} color='white' />
                     </div>
@@ -145,41 +146,47 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='relative right-5'>
-                    <div className='relative bottom-20'>
-                        <span className='text-[20px] mb-10 font-bold'>Download The App </span>
-                    </div>
 
-                    <div className='flex gap-2  relative bottom-10'>
-                        <div className=' h-[40px]  bg-[#090808ad] rounded-xl flex justify-start items-center p-3 gap-1'>
-                            <span><IoLogoGooglePlaystore size={30} color='white' /></span>
-                            <div className=' px-8 h-10 flex flex-col'>
-                                <span className='md:text-[10px] max-sm:text-[10px]'>android app on</span>
-                                <span>Google Play</span>
+                <div className=''>
+                    <div className='p-1'>
+                        <div className=''>
+                            <span className='text-[20px] mb-10 font-bold bottom-4 relative'>Download The App </span>
+                        </div>
+
+                        <div className='flex  gap-3 max-sm:flex-col '>
+                            <div className=' flex justify-between items-center px-10  bg-[#404040] rounded-lg'>
+
+                                <span><IoLogoGooglePlaystore size={30} color='white' /></span>
+
+                                <div className='flex flex-col text-white'>
+                                    <span className='max-sm:text-[12px]'>android app on</span>
+                                    <span className='max-sm:text-[18px]'>Google Play</span>
+                                </div>
+
+                            </div>
+
+                            <div className='flex justify-between items-center px-8 bg-[#404040] rounded-lg'>
+                                <div>
+                                    <span><GrAppleAppStore size={30} color='white' /></span>
+                                </div>
+                                <div className='flex  flex-col text-white'>
+                                    <span className='max-sm:text-[12px] '>Available on the</span>
+                                    <span className='max-sm:text-[18px]'>App Store</span>
+                                </div>
                             </div>
                         </div>
-                        <div className=' h-[40px]  bg-[#090808ad] rounded-xl flex justify-start items-center p-3 gap-3'>
-                            <span><IoLogoAppleAppstore size={30} color='white' /></span>
-                            <div className=' px-8 h-10 flex flex-col'>
-                                <span className='md:text-[10px] max-sm:text-[10px]'>android app on</span>
-                                <span>Google Play</span>
-                            </div>
-                        </div>
                     </div>
-
-
                 </div>
-
             </div>
 
 
-            <div className=' h-[1px] bg-[#6D6D6D]'></div>
+            <div className=' h-[1px] bg-[#6D6D6D] mt-2'></div>
             <div className='flex justify-between items-center h-20 md:p-7  max-sm:p-4'>
                 <span className='md:text-[22px]'>Popular Categories</span>
-                <span className='animate-pulse'><IoIosArrowDown size={20}/></span>
+                <span className='animate-pulse'><IoIosArrowDown size={20} /></span>
             </div>
             <div className=' h-[1px] bg-[#6D6D6D]'></div>
-            
+
 
             <div className=' flex justify-center items-center relative top-3'>
                 <span className='max-sm:text-[12px]'>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</span>

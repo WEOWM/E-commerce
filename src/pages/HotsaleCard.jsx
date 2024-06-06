@@ -134,7 +134,7 @@ const HotsaleCard = () => {
                                                     <span>AED {item.AED}</span>
                                                 </div>
                                                 <div className='flex  justify-between items-center'>
-                                                    <span className='bg-[#FF0000] p-1 rounded-tl-xl rounded-bl-xl rounded-br-xl  md:text-[14px] max-sm:text-[9px]'>Best Deal</span>
+                                                    <span className='bg-[#FF0000] p-1 rounded-tl-xl rounded-bl-xl rounded-br-xl  md:text-[14px] max-sm:text-[9px] animate-pulse'>Best Deal</span>
                                                     <span className='text-[#E4730A] max-sm:text-[9px] text-[14px]'>Only 3 left in stock</span>
                                                 </div>
                                             </div>
