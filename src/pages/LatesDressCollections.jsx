@@ -47,9 +47,9 @@ const LatesDressCollections = () => {
     return (
         <div className='p-10'>
             <div className='flex justify-between '>
-                <span>Latest <span className='text-red-700 ' style={{ fontSize: "23px" }}>Dress Collections</span></span>
+                <span className='max-sm:text-[20px] font-bold'>Latest <span className='text-red-700 max-sm:text-[23px]' >Dress Collections</span></span>
                 <div className='flex '>
-                    <span className='flex justify-center items-center gap-1'>views <span className='animate-pulse'><MdKeyboardDoubleArrowRight /> </span></span>
+                    <span className='flex justify-center items-center gap-1 max-sm:text-[9px]'>views <span className='animate-pulse'><MdKeyboardDoubleArrowRight /> </span></span>
                 </div>
             </div>
 
@@ -65,14 +65,14 @@ const LatesDressCollections = () => {
                                     <div className='p-0 m-0'>
                                         <img className=' p-2 m-0 ' src={item.img} alt="" />
                                     </div>
-                                    <div className='flex left-5  relative bottom-14  z-10  '>
+                                    <div className='flex left-3  relative bottom-14  z-10  '>
                                         <span className=' w-10 h-10 flex justify-center items-center  px-10 rounded-lg bg-[#fdba12e2] cursor-pointer'>Best</span>
                                     </div>
                                     <div className='p-1 '>
                                         <div className='flex flex-col relative bottom-5'>
-                                            <span>{item.title}</span>
-                                            <span className='text-[#8A8A8A]'>{item.brant}</span>
-                                            <span>{item.customerrate}</span>
+                                            <span className='max-sm:text-[14px] font-bold'>{item.title}</span>
+                                            <span className='text-[#8A8A8A] max-sm:text-[14px]'>{item.brant}</span>
+                                            <span className='max-sm:text-[14px]'>{item.customerrate}</span>
                                         </div>
                                     </div>
                                 </div>

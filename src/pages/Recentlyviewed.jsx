@@ -56,19 +56,19 @@ const Recentlyviewed = () => {
                                 </div>
                                 <div className='border border-gray-400 rounded-md'>
                                     <div className='p-0 m-0'>
-                                        <img className=' p-2 m-0 ' src={item.img} alt="" />
+                                        <img className=' p-2 m-0 h-[360px] ' src={item.img} alt="" />
                                     </div>
                                     <div className='flex justify-end relative bottom-14 right-3 z-10  '>
                                         <span className='bg-white w-10 h-10 flex justify-center items-center rounded-full '><MdOutlineShoppingCart className='hover:text-yellow-400' /></span>
                                     </div>
                                     <div className='p-1 '>
                                         <div className='flex flex-col relative bottom-5'>
-                                            <span>{item.title}</span>
-                                            <span className='text-[#8A8A8A]'>{item.brant}</span>
-                                            <span>{item.customerrate}</span>
+                                            <span className='max-sm:text-[13px]'>{item.title}</span>
+                                            <span className='text-[#8A8A8A] max-sm:text-[13px]'>{item.brant}</span>
+                                            <span className='max-sm:text-[13px]'>{item.customerrate}</span>
                                             <div className='flex justify-between p-2'>
-                                                <span>₹ {item.price}</span>
-                                                <button className='px-2 bg-[#ff46464b] text-[#FF4646] rounded-md '> Buy Now</button>
+                                                <span className='max-sm:text-[15px]'>₹ {item.price}</span>
+                                                <button className='px-2 bg-[#ff46464b] text-[#FF4646] rounded-md max-sm:text-[10px] animate-pulse'> Buy Now</button>
                                             </div>
 
                                         </div>

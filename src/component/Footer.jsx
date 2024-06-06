@@ -174,9 +174,9 @@ const Footer = () => {
 
 
             <div className=' h-[1px] bg-[#6D6D6D]'></div>
-            <div className='flex justify-between items-center h-20 p-7 '>
+            <div className='flex justify-between items-center h-20 md:p-7  max-sm:p-4'>
                 <span className='md:text-[22px]'>Popular Categories</span>
-                <span><IoIosArrowDown size={20}/></span>
+                <span className='animate-pulse'><IoIosArrowDown size={20}/></span>
             </div>
             <div className=' h-[1px] bg-[#6D6D6D]'></div>
             

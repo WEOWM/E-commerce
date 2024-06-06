@@ -51,18 +51,18 @@ const Fashion = () => {
     ]
     return (
         <div className='p-8'>
-            <span className='md:ps-5' style={{ fontSize: "26px" }}>Fashion</span>
+            <span className='md:ps-5 max-sm:text-[15px] font-bold' >Fashion</span>
             <div className='grid grid-cols-6 max-sm:grid-cols-2 gap-2 md:p-5'>
                 {
                     Fashion.map((item) => {
                         return (
                             <div className='border border-gray-200 rounded-md'>
                                 <div>
-                                    <img loading='lazy' className='' src={item.img} alt="" />
+                                    <img loading='lazy' className='max-sm:h-[300px]' src={item.img} alt="" />
                                 </div>
                                 <div className='flex flex-col text-start '>
-                                    <span>₹12,000</span>
-                                    <span className='text-[#C1C1C1]'>T-shirts with multiple colors, for men</span>
+                                    <span className='max-sm:text-[13px] font-bold'>₹12,000</span>
+                                    <span className='text-[#4f4d4dd3] max-sm:text-[13px]'>T-shirts with multiple colors, for men</span>
                                 </div>
                             </div>
                         )

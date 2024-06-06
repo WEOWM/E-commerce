@@ -55,22 +55,24 @@ const Region = () => {
     ]
     return (
         <div>
-            <div className='p-8'>
-                <span className='ps-16 text-[20px]'>Suppliers by region</span>
+            <div className='md:p-8'>
+                <span className=' ps-10 text-[20px] font-bold'>Suppliers by region</span>
             </div>
 
             <div className='grid grid-cols-5 gap-3 max-sm:grid-cols-2 p-2'>
                 {
                     region.map((item) => {
                         return (
-                            <div className='flex justify-center items-center gap-3'>
-                                <div  className='flex justify-center items-center ' >
-                                    <img className='w-10 h-10 rounded-full'  src={item.img} alt="" srcset="" />
-                                </div>
+                            <div  className='flex ps-10'>
+                                <div className='flex justify-start items-center gap-3'>
+                                    <div className='flex justify-center items-center ' >
+                                        <img className='w-10 h-10 rounded-full' src={item.img} alt="" srcset="" />
+                                    </div>
 
-                                <div className='flex flex-col justify-center '>
-                                    <span className='text-[12px] font-bold' >{item.title}</span>
-                                    <span className='text-[10px]'>{item.sub}</span>
+                                    <div className='flex flex-col justify-center '>
+                                        <span className='text-[12px] font-bold' >{item.title}</span>
+                                        <span className='text-[10px]'>{item.sub}</span>
+                                    </div>
                                 </div>
                             </div>
                         )
