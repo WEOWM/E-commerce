@@ -38,7 +38,7 @@ const UptoOffer = () => {
         <div className='bg-gradient-to-b from-[#68B8DA] to-[#E385FA] h- place-content-center place-items-center '>
             <div className='flex justify-between p-5'>
                 <div>
-                    <span className='max-sm:text-[10px]'>Up To </span> <span className='text-[#FF0000] max-sm:text-[10px]'>60%</span ><span className='max-sm:text-[10px]'>Off</span>
+                    <span className='max-sm:text-[14px] font-bold'>Up To </span> <span className='text-[#FF0000] max-sm:text-[14px] font-bold'>60%</span ><span className='max-sm:text-[14px] font-bold'> Off</span>
                 </div>
 
 
@@ -58,12 +58,12 @@ const UptoOffer = () => {
                                     <span className='bg-white w-10 h-10 flex justify-center items-center rounded-full '><FaRegHeart className='hover:text-red-700' /></span>
                                 </div>
                                 <div className='relative'>
-                                    <img className='slide md:h-[380px] md:w-[320px] rounded-tr-xl rounded-tl-xl' src={item.img} alt="" srcset="" />
+                                    <img className='slide md:h-[380px] md:w-[320px] max-sm:w-[320px] max-sm:h-[280px]  rounded-tr-xl rounded-tl-xl' src={item.img} alt="" srcset="" />
                                 </div>
-                                <div className='md:p-2'>
-                                    <div className='h-32 bottom-10  relative rounded-xl  text-white flex flex-col text-center  items-center bg-gradient-to-b from-[#36363693] to-[#181818] '>
+                                <div className='md:p-2 p-1'>
+                                    <div className='md:h-32 max-sm:h-20 bottom-10  relative rounded-xl  text-white flex flex-col text-center  items-center bg-gradient-to-b from-[#36363693] to-[#181818] '>
                                         <span>₹ {item.price}</span>
-                                        <span className='max-sm:text-[10px]' style={{  fontFamily: "unset" }}>{item.title}</span>
+                                        <span className='max-sm:text-[10px] text-[20px] p-2' style={{  fontFamily: "unset" }}>{item.title}</span>
                                     </div>
                                 </div>
                             </div>
