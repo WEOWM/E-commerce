@@ -42,10 +42,10 @@ const HotsaleCard = () => {
             <div className='flex justify-between'>
                 <div className='flex gap-10  items-center'>
                     <div>
-                        <span className='text-red-800  '>Hot</span> <span>Sale</span>
+                        <span className='text-red-800 '>Hot</span> <span>Sale</span>
                     </div>
                     <div className='py-1 px-1 bg-[#008B1EE8] rounded-[5px] flex justify-center items-center'>
-                        <span>Buy with Low cost</span>
+                        <span className='max-sm:text-[10px]'>Buy with Low cost</span>
                     </div>
                 </div>
 
@@ -134,8 +134,8 @@ const HotsaleCard = () => {
                                                     <span>AED {item.AED}</span>
                                                 </div>
                                                 <div className='flex  justify-between items-center'>
-                                                    <span className='bg-[#FF0000] p-1 rounded-tl-xl rounded-bl-xl rounded-br-xl  md:text-[14px] text-[11px]'>Best Deal</span>
-                                                    <span className='text-[#E4730A] md:text-[16px] text-[14px]'>Only 3 left in stock</span>
+                                                    <span className='bg-[#FF0000] p-1 rounded-tl-xl rounded-bl-xl rounded-br-xl  md:text-[14px] max-sm:text-[9px]'>Best Deal</span>
+                                                    <span className='text-[#E4730A] max-sm:text-[9px] text-[14px]'>Only 3 left in stock</span>
                                                 </div>
                                             </div>
                                         </div>
