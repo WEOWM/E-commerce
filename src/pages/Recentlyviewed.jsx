@@ -56,7 +56,7 @@ const Recentlyviewed = () => {
                                 </div>
                                 <div className='border border-gray-400 rounded-md'>
                                     <div className='p-0 m-0'>
-                                        <img className=' p-2 m-0 h-[360px] ' src={item.img} alt="" />
+                                        <img className=' p-2 m-0 md:h-[380px] max-sm:h-[280px] ' src={item.img} alt="" />
                                     </div>
                                     <div className='flex justify-end relative bottom-14 right-3 z-10  '>
                                         <span className='bg-white w-10 h-10 flex justify-center items-center rounded-full '><MdOutlineShoppingCart className='hover:text-yellow-400' /></span>
