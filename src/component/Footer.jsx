@@ -159,7 +159,7 @@ const Footer = () => {
                                 <span><IoLogoGooglePlaystore size={30} color='white' /></span>
 
                                 <div className='flex flex-col text-white'>
-                                    <span className='max-sm:text-[12px]'>android app on</span>
+                                    <span className='max-sm:text-[10px]'>android app on</span>
                                     <span className='max-sm:text-[15px]'>Google Play</span>
                                 </div>
 
