@@ -23,8 +23,8 @@ const TopBard = () => {
         <div className='w-full h-full bg-[#F0F0F0] p-3'>
             <div className='flex'>
                 <div className='flex w-full gap-3' >
-                    <span className='max-sm:text-[9px]'>Top Brands </span>
-                    <span className='px-2 bg-blue-600 rounded-lg'>Get The early price</span>
+                    <span className=''>Top Brands </span>
+                    <span className='px-2 bg-blue-600 rounded-lg max-sm:text-[10px]'>Get The early price</span>
                 </div>
                 <div className='flex justify-center items-center'>
                     <span>Views</span>

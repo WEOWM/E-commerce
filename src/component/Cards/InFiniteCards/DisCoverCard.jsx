@@ -40,8 +40,8 @@ const DisCoverCard = () => {
         <div className="w-full h-full bg-[#F0F0F0] p-3">
             <div className="flex justify-between items-center">
                 <div className="flex gap-3">
-                    <span className='max-sm:text-[9px]'>Discover New</span>
-                    <span className="px-2 bg-blue-600 rounded-lg">Get The Early Price</span>
+                    <span className=''>Discover New</span>
+                    <span className="px-2 bg-blue-600 rounded-lg max-sm:text-[10px]">Get The Early Price</span>
                 </div>
                 <div className="flex items-center">
                     <span>Views</span>
