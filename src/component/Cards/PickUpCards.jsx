@@ -59,8 +59,8 @@ const PickUpCards = () => {
   return (
     <div className='w-full h-full p-6'>
       <div className='w-full h-full flex justify-between items-center'>
-        <span>Pick For You</span>
-        <span className='flex items-center justify-center gap-3 '> <span>view</span><span className='animate-pulse'><RxDoubleArrowRight /></span></span>
+        <span className='max-sm:text-[10px]'>Pick For You</span>
+        <span className='flex items-center justify-center gap-3 '> <span className='max-sm:text-[10px]'>view</span><span className='animate-pulse'><RxDoubleArrowRight /></span></span>
       </div>
 
       <div className='grid max-sm:grid-cols-2 md:grid-cols-5 gap-3 p-3'>

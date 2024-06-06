@@ -23,12 +23,12 @@ const TopBard = () => {
         <div className='w-full h-full bg-[#F0F0F0] p-3'>
             <div className='flex'>
                 <div className='flex w-full gap-3' >
-                    <span className=''>Top Brands </span>
-                    <span className='px-2 bg-blue-600 rounded-lg max-sm:text-[10px]'>Get The early price</span>
+                    <span className='max-sm:text-[10px]'>Top Brands </span>
+                    <span className='px-2 bg-blue-600 rounded-lg max-sm:text-[10px] flex items-center'>Get The early price</span>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <span>Views</span>
-                    <span><MdKeyboardDoubleArrowRight /></span>
+                    <span className='max-sm:text-[9px]'>Views</span>
+                    <span className='animate-pulse'><MdKeyboardDoubleArrowRight /></span>
                 </div>
             </div>
 

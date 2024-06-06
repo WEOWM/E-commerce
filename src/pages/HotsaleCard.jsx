@@ -76,7 +76,7 @@ const HotsaleCard = () => {
                 <div className='p-2 bg-[#F8F8F9] border rounded-md' >
                     <div className=' border-gray-700'>
                         <div>
-                            <span>Computer & accessories</span>
+                            <span className='max-sm:text-[10px]'>Computer & accessories</span>
 
                             </div>
                         <div className='grid grid-cols-3 gap-1 p-2 '>
@@ -94,7 +94,7 @@ const HotsaleCard = () => {
 
                     <div className='border-gray-700'>
                         <div className='bg-[#F8F8F9]  mt-2'>
-                            <span>Digital Watch</span>
+                            <span className='max-sm:text-[10px]'>Digital Watch</span>
 
                         </div>
                         <div className='grid grid-cols-3 gap-1 p-2 '>

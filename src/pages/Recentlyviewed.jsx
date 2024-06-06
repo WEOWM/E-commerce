@@ -45,7 +45,7 @@ const Recentlyviewed = () => {
     ]
     return (
         <div className='p-5'>
-            <span style={{ fontSize: "27px" }}>Recently Viewed</span>
+            <span className='max-sm:text-[10px]'>Recently Viewed</span>
             <div className='grid max-sm:grid-cols-2 grid-cols-5 gap-1'>
                 {
                     Recently.map((item) => {

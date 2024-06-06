@@ -38,12 +38,12 @@ const UptoOffer = () => {
         <div className='bg-gradient-to-b from-[#68B8DA] to-[#E385FA] h- place-content-center place-items-center '>
             <div className='flex justify-between p-5'>
                 <div>
-                    <span>Up To </span> <span className='text-[#FF0000]'>60%</span><span>Off</span>
+                    <span className='max-sm:text-[10px]'>Up To </span> <span className='text-[#FF0000] max-sm:text-[10px]'>60%</span ><span className='max-sm:text-[10px]'>Off</span>
                 </div>
 
 
                 <div className='flex justify-center items-center gap-4'>
-                    <span>views  </span>
+                    <span className='max-sm:text-[10px]'>views  </span>
                     <span className='animate-pulse'>
                         <RxDoubleArrowRight />
                     </span>
@@ -63,7 +63,7 @@ const UptoOffer = () => {
                                 <div className='md:p-2'>
                                     <div className='h-32 bottom-10  relative rounded-xl  text-white flex flex-col text-center  items-center bg-gradient-to-b from-[#36363693] to-[#181818] '>
                                         <span>₹ {item.price}</span>
-                                        <span style={{ fontSize: "20px", fontFamily: "unset" }}>{item.title}</span>
+                                        <span className='max-sm:text-[10px]' style={{  fontFamily: "unset" }}>{item.title}</span>
                                     </div>
                                 </div>
                             </div>
