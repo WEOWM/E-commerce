@@ -58,7 +58,7 @@ const UptoOffer = () => {
                                     <span className='bg-white w-10 h-10 flex justify-center items-center rounded-full '><FaRegHeart className='hover:text-red-700' /></span>
                                 </div>
                                 <div className='relative'>
-                                    <img className='slide h-[380px] w-[320px] rounded-tr-xl rounded-tl-xl' src={item.img} alt="" srcset="" />
+                                    <img className='slide md:h-[380px] md:w-[320px] rounded-tr-xl rounded-tl-xl' src={item.img} alt="" srcset="" />
                                 </div>
                                 <div className='md:p-2'>
                                     <div className='h-32 bottom-10  relative rounded-xl  text-white flex flex-col text-center  items-center bg-gradient-to-b from-[#36363693] to-[#181818] '>

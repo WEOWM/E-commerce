@@ -70,10 +70,10 @@ const PickUpCards = () => {
               <div className='shadow-2xl p-4 border-2 border-[#B7B7B7]  place-content-center'>
                 <img className='w-full ' src={item.img} alt="" srcset="" />
                 <div className='flex flex-col'>
-                  <span style={{ fontSize: "16px" }}>{item.title}</span>
+                  <span className='max-sm:text-[9px] text-[16px]'>{item.title}</span>
                   <div className='flex justify-between items-center mt-5'>
-                    <span className=''>AED {item.Aed}</span>
-                    <span className='px-y rounded-[3.99px] bg-[#FF8A00]'>160 SOLD</span>
+                    <span className='max-sm:text-[9px]'>AED {item.Aed}</span>
+                    <span className='px-y rounded-[3.99px] bg-[#FF8A00] max-sm:text-[9px]'>160 SOLD</span>
                   </div>
                 </div>
               </div>
