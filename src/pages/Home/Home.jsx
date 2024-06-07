@@ -57,7 +57,7 @@ const Home = (props) => {
                 <div className="max-md:col-span-12 max-lg:col-span-5 md:col-span-5 text-black">
                     <div className="flex items-center justify-between p-16 pt-0 pb-0">
                         <h3 className="text-list text-lg font-semibold">Categories</h3>
-                        <p className="text-list">View All</p>
+                        <p className="text-list max-sm:text-[10px] ">View All</p>
                     </div>
                     <CategoryCarousel />
                 </div>
