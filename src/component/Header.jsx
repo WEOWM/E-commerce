@@ -11,8 +11,10 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import SearchBar from './SearchBar';
 import '../Styles/Header.css'
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate()
 
   return (
     <>
@@ -38,7 +40,7 @@ const Header = () => {
       <div className='w-full h-[105px] hidden lg:flex'>
         <div className='w-[50%] h-[105px] pl-[50px] flex items-center  '>
           <div className='animate-bounce'>
-            <img className='' src={Logo} alt="" />
+            <img className='' onClick={()=>navigate("/")} src={Logo} alt="" />
           </div>
           <SearchBar />
         </div>

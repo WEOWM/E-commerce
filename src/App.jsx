@@ -1,14 +1,21 @@
 import React from 'react'
-
 import './App.css'
-import Home from './pages/Home/Home'
+import IndexRouts from './Routs/IndexRouts'
+import Header from './component/Header'
+import Footer from './component/Footer'
 
 const App = () => {
-  
+
   return (
     <div>
-      <Home/>
-      
+      <section>
+        <Header />
+      </section>
+      <IndexRouts />
+      <footer>
+        <Footer />
+      </footer>
+
     </div>
   )
 }

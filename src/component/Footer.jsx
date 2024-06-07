@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
 import { GrAppleAppStore } from "react-icons/gr";
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
     const data1 = [
@@ -70,6 +71,8 @@ const Footer = () => {
 
     ]
 
+    const navigate = useNavigate()
+
 
     return (
         <div className='bg-[#F0F0F0] h-auto'>
@@ -132,8 +135,8 @@ const Footer = () => {
             <div className='grid grid-cols-2 max-sm:grid-cols-2  md:p-10  place-items-center'>
 
                 <div className='flex gap-3'>
-                    <div className='w-[37px] h-[37px] rounded-[10px] bg-[#090808ad] flex justify-center items-center'>
-                        <RiFacebookFill size={22} color='white' />
+                    <div className='w-[37px] h-[37px] rounded-[10px] bg-[#090808ad] flex justify-center items-center' onClick={()=>navigate('/cart')}>
+                        <RiFacebookFill size={22} color='white'  />
                     </div>
                     <div className='w-[37px] h-[37px] rounded-[10px] bg-[#090808ad] flex justify-center items-center'>
                         <FaInstagram size={20} color='white' />

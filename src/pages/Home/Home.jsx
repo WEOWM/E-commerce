@@ -51,15 +51,10 @@ const Home = (props) => {
         <>
 
             <section>
-                <Header />
-                {/* <MainCarousel data={data} /> */}
+            
+                <MainCarousel data={data} />
             </section>
-            <section className='flex'>
-                <ProductDetail/>
-                {/* <Star/> */}
-            </section>
-
-            {/* <section className="category-section w-full h-full grid grid-cols-12 gap-4 max-md:grid-cols-2 p-4 max-md:p-0 place-content-center">
+            <section className="category-section w-full h-full grid grid-cols-12 gap-4 max-md:grid-cols-2 p-4 max-md:p-0 place-content-center">
                 <div className="max-md:col-span-12 max-lg:col-span-5 md:col-span-5 text-black">
                     <div className="flex items-center justify-between p-16 pt-0 pb-0">
                         <h3 className="text-list text-lg font-semibold">Categories</h3>
@@ -113,18 +108,16 @@ const Home = (props) => {
             <section>
                 <LatesDressCollections/>
             </section>
-            <section>
+            {/* <section>
                 <TopElectronicsBrands/>
             </section>
             <section>
                 <BestSale/>
-            </section>
+            </section> */}
             <section>
                 <Region/>
-            </section> */}
-            <footer>
-                <Footer/>
-            </footer>
+            </section>
+            
 
 
 

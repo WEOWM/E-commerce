@@ -43,7 +43,7 @@ const ProductDetail = () => {
                     <span><Star /></span>
                     <span>3.5</span>
                     <div className='flex items-center gap-3'>
-                        <span><RiMessage3Line /></span>
+                        <span><RiMessage3Line  /></span>
                         <span>120 comments</span>
                     </div>
                 </div>
